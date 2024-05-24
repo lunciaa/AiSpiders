@@ -1,0 +1,15 @@
+@use "@/utils/master" as m;
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(m.$colors_bg, 0.5);
+  backdrop-filter: blur(2px);
+
+  display: flex;
+  justify-content: space-between;
+
+  position: sticky;
+}
