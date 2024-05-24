@@ -1,0 +1,25 @@
+@use '@/utils/master' as m;
+@import url('./assets/fonts/fonts.css');
+
+:root {
+  font-family: Lato;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: m.$colors_font;
+  background-color: m.$colors_bg;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
