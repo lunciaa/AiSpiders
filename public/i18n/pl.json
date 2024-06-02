@@ -1,0 +1,20 @@
+{
+  "nav_home": "Strona Główna",
+  "nav_profile": "Profil",
+  "nav_sign_in": "Zaloguj się",
+  "nav_logout": "Wyloguj się",
+
+  "form_next": "Dalej",
+  "form_register": "Zarejestruj się",
+  "form_login": "Zaloguj się",
+  "form_not_you": "To nie ty?",
+
+  "form_name_start": "Login",
+  "form_name_login": "Login",
+  "form_name_register": "Register",
+
+  "error_form_invalid_password": "Nieprawidłowe hasło\nHasło powinno mieć co najmniej 8 znaków długości oraz zawierać\n1 dużą literę, 1 cyfrę i 1 znak specjalny",
+  "error_form_invalid_email": "Nieprawidłowy email",
+  "error_form_email_taken": "Ten email jest już zajęty",
+  "error_form_invalid_credentials": "Błędny email lub hasło"
+}

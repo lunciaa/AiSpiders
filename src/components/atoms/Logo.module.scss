@@ -1,4 +1,8 @@
+@use "@/utils/master" as m;
+
 .logo {
   margin: 0;
   padding: 0;
+
+  text-shadow: 2px 2px 4px m.$colors_accent;
 }

@@ -1,0 +1,17 @@
+@use "@/utils/master" as m;
+
+.nav_entry {
+  display: flex;
+  align-items: center;
+
+  & .open_sub {
+    filter: drop-shadow(0 0 5px transparent);
+    font-size: 1.1rem;
+
+    transition: filter 0.2s ease-out;
+
+    &:hover {
+      filter: drop-shadow(0 0 5px m.$colors_font);
+    }
+  }
+}

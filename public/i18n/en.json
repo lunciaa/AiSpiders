@@ -1,0 +1,20 @@
+{
+  "nav_home": "Home",
+  "nav_profile": "Profile",
+  "nav_sign_in": "Sign In",
+  "nav_logout": "Sign Out",
+
+  "form_next": "Next",
+  "form_register": "Sign Up",
+  "form_login": "Sign In",
+  "form_not_you": "Not you?",
+
+  "form_name_start": "Sign In",
+  "form_name_login": "Sign In",
+  "form_name_register": "Sign Up",
+
+  "error_form_invalid_password": "Invalid password\nPassword should have at least 8 characters,\nincluding 1 uppercase, 1 letter and 1 special character",
+  "error_form_invalid_email": "Invalid email",
+  "error_form_email_taken": "This email is taken",
+  "error_form_invalid_credentials": "Invalid email or password"
+}

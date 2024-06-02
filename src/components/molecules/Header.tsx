@@ -1,11 +1,12 @@
 import Logo from "@/components/atoms/Logo"
 import style from "./Header.module.scss"
+import NavigationInitiator from "../organisms/NavigationInitiator"
 
 const Header = () => {
   return (
     <header className={style.header}>
       <Logo />
-      <div style={{ display: "flex", alignItems: "center" }}>Menu</div>
+      <NavigationInitiator />
     </header>
   )
 }
